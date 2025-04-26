@@ -1,0 +1,15 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore Manim output media files
+media/
+
+# Ignore generated text files (if result.txt is always generated)
+result.txt
+
+# Ignore virtual environment directory if it were in this folder (good practice to include)
+.venv/
+
+# Ignore operating system files (optional but recommended)
+.DS_Store # macOS
+Thumbs.db # Windows

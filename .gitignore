@@ -1,0 +1,19 @@
+# Ignore Python bytecode files anywhere in the repository
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories anywhere
+.venv/
+venv/ # Common alternative venv name
+
+# Ignore Manim output media directories within any direct project folder
+*/media/
+
+# Ignore specific generated files like result.txt within any direct project folder
+*/result.txt
+
+# Ignore operating system files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Add any other files or directories you want to ignore across projects
